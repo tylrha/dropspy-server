@@ -1,0 +1,22 @@
+{
+  "project_configs": {
+    "appname": "dropspy",
+    "source_folder": "./src",
+    "dist_folder": "./build"
+  },
+  "server_configs": {
+    "default_port": 3000,
+    "development_port": 4000
+  },
+  "database_configs": {
+    "database_spy": "DROPSPY",
+    "collection_users": "users",
+    "collection_bots": "bots",
+    "collection_dates": "dates",
+    "collection_products": "products",
+    "collection_stores": "stores",
+    "collection_stores_by_dates": "stores-by-date",
+    "collection_labels": "labels",
+    "collection_categories": "categories"
+  }
+}
